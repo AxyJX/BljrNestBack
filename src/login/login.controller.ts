@@ -2,7 +2,7 @@ import { Controller } from "@nestjs/common";
 import { LoginService } from "./login.service";
 import { Post } from "@nestjs/common";
 
-@Controller()
+@Controller('loginEnd')
 export class LoginController{
     constructor (private loginService : LoginService) {}
 
