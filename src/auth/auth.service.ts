@@ -1,8 +1,7 @@
 import { Injectable } from "@nestjs/common";
-import { userInfo } from "os";
 
 @Injectable({})
-export class LoginService  {
+export class AuthService  {
     login(){
         return 1+1
     }
